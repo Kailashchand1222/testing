@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Car Racing Game",
+    "imageSrc": "projects/car.webp",
+    "description": "A beginner-level 2D car racing game built using Pygame.",
+    "skills": ["Python"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Kailashchand1222/pygame-_project"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/project2.webp",
+    "description": "This is just a sample project. Updates coming shortly.",
+    "skills": ["React",  "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project3.webp",
+    "description": "This is just a sample project. Updates coming shortly",
+    "skills": ["React",  "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

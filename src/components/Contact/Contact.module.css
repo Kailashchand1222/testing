@@ -1,0 +1,178 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  background-color: #885CF6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form button:hover {
+  opacity: 0.9;
+}
+.resumeBtn {
+  display: inline-block;
+  background-color: #885CF6;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.resumeBtn:hover {
+  background-color: #6d47d9;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(136, 92, 246, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+  .text h2 {
+    font-size: 55px;
+  }
+
+  .text p {
+    font-size: 26px;
+  }
+
+  .link a {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .text h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .link {
+    gap: 15px;
+  }
+
+  .link a {
+    font-size: 18px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text h2 {
+    font-size: 30px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .link a {
+    font-size: 16px;
+  }
+}
